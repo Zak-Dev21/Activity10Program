@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int sales = 20'000;
+    int sales = 5'000;
 
     double commision = (sales > 15'000) ? .2 :
         (10'000 <= sales <= 15'000) ? .15 : .1;
